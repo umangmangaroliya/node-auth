@@ -1,0 +1,37 @@
+{
+  "name": "node-auth",
+  "version": "1.0.0",
+  "description": "Auth using node, mongo and JWT",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umangmangaroliya/node-auth.git"
+  },
+  "keywords": [
+    "node",
+    "mongo",
+    "jwt",
+    "auth",
+    "node-auth"
+  ],
+  "author": "Umang Mangaroliya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umangmangaroliya/node-auth/issues"
+  },
+  "homepage": "https://github.com/umangmangaroliya/node-auth#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "nodemailer": "^7.0.5",
+    "pino": "^9.9.0",
+    "zod": "^4.1.4"
+  }
+}
