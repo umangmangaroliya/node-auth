@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Auth using node, mongo and JWT",
   "main": "server.js",
+  "type": "module",
   "scripts": {
+    "createAdmin": "node src/scripts/createAdmin.js",
+    "start": "NODE_ENV=production node src/server.js",
+    "dev": "NODE_ENV=development nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -33,5 +37,8 @@
     "nodemailer": "^7.0.5",
     "pino": "^9.9.0",
     "zod": "^4.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
